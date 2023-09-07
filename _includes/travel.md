@@ -17,7 +17,7 @@
          </div>
    </div>
 
-
+   <!-- Map -->
    <div id = "map" style = "width: 99%; height:450px"></div>
    <script>
       // Creating map options
@@ -28,17 +28,11 @@
       // Creating a map object
       var map = new L.map('map', mapOptions);
       
-   // Creating a Layer object
-      var layer = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-         subdomains: 'abcd',
-         maxZoom: 20
-      });
+      // Creating a Layer object and adding layer to the map
+      L.tileLayer.provider('USGS.USTopo').addTo(map);
 
-      // Adding layer to the map
-      map.addLayer(layer);
 
-      
+
       // Icon options
       var iconOptionsVisted = {
          iconUrl: './assets/img/map_icon.png',
@@ -68,112 +62,79 @@
       }
 
 
-      
       // Creating a marker
-      var marker1 = L.marker([29.770, -95.390], markerOptions); //houston
-      var marker2 = L.marker([40.670, -73.940], markerOptions); //New york
-      var marker3 = L.marker([34.110, -118.410], markerOptions); //Los angeles
-      var marker4 = L.marker([41.840, -87.680], markerOptions); //Chicago
-      var marker5 = L.marker([40.010, -75.130], markerOptions); //Philadelphia
-      var marker6 = L.marker([29.460, -98.510], markerOptions); //San antonio
-      var marker7 = L.marker([37.770, -122.450], markerOptions); //San francisco
-      var marker8 = L.marker([39.990, -82.990], markerOptions); //Columbus
-      var marker9 = L.marker([30.310, -97.750], markerOptions); //Austin
-      var marker10 = L.marker([35.110, -90.010], markerOptions); //Memphis
-      var marker11 = L.marker([39.300, -76.610], markerOptions); //Baltimore
-      var marker12 = L.marker([31.850, -106.440], markerOptions); //El paso
-      var marker13 = L.marker([35.200, -80.830], markerOptions); //Charlotte
-      var marker14 = L.marker([42.340, -71.020], markerOptions); //Boston
-      var marker15 = L.marker([38.910, -77.020], markerOptions); //Washington
-      var marker16 = L.marker([36.170, -86.780], markerOptions); //Nashville
-      var marker17 = L.marker([36.210, -115.220], markerOptions); //Las vegas
-      var marker18 = L.marker([35.470, -97.510], markerOptions); //Oklahoma city
-      var marker19 = L.marker([30.070, -89.930], markerOptions); //New orleans
-      var marker20 = L.marker([25.780, -80.210], markerOptions); //Miami
-      var marker21 = L.marker([38.640, -90.240], markerOptions); //Saint louis
-      var marker22 = L.marker([40.440, -79.980], markerOptions); //Pittsburgh
-      var marker23 = L.marker([28.500, -81.370], markerOptions); //Orlando
-      var marker24 = L.marker([35.820, -78.660], markerOptions); //Raleigh
-      var marker25 = L.marker([34.720, -92.350], markerOptions); //Little rock
-      var marker26 = L.marker([40.780, -111.930], markerOptions); //Salt lake city
-      var marker27 = L.marker([35.970, -83.950], markerOptions); //Knoxville
-      var marker28 = L.marker([41.310, -72.920], markerOptions); //New haven
-      var marker29 = L.marker([43.7022, -72.2896], markerOptions); //Hanover
-      var marker30 = L.marker([41.820, -71.420], markerOptions); //Providence
-      var marker31 = L.marker([33.760, -84.420], markerOptions); //Atlanta
-      var marker32 = L.marker([39.780, -86.150], markerOptions); //Indianapolis
-      var marker33 = L.marker([44.4759, -73.2121], markerOptions); //Burlington
-      var marker34 = L.marker([32.7767, -96.7970], markerOptions); //Dallas
-      var marker35 = L.marker([32.0809, -81.0912], markerOptions); //Savannah
-      var marker36 = L.marker([43.6591, -70.2568], markerOptions); //Portland
-      var marker37 = L.marker([43.0481, -76.1474], markerOptions); //Syracuse
-      var marker38 = L.marker([43.0962, -79.0377], markerOptions); //Niagara Falls
-      var marker39 = L.marker([43.6532, -79.3832], markerOptions); //Toronto
-      var marker40 = L.marker([45.5019, -73.5674], markerOptions); //Montreal
-      var marker41 = L.marker([46.8131, -71.2075], markerOptions); //Québec City
-      var marker42 = L.marker([45.4215, -75.6972], markerOptions); //Ottawa
-      var marker43 = L.marker([19.4326, -99.1332], markerOptions); //Mexico City
-      var marker44 = L.marker([21.1619, -86.8515], markerOptions); //Cancun
-      var marker45 = L.marker([42.9956, -71.4548], markerOptions); //Manchester
-      var marker46 = L.marker([33.9519, -83.3576], markerOptions); //Athens
-      var marker47 = L.marker([24.5551, -81.7800], markerOptions); //Key West
-      var marker48 = L.marker([33.5186, -86.8104], markerOptions); //Birmingham
-      var marker49 = L.marker([37.2090, -93.2923], markerOptions); //Springfield
+      var marker1 = L.marker([29.770, -95.390], markerOptions).addTo(map); //houston
+      var marker2 = L.marker([40.670, -73.940], markerOptions).addTo(map); //New york
+      var marker3 = L.marker([34.110, -118.410], markerOptions).addTo(map); //Los angeles
+      var marker4 = L.marker([41.840, -87.680], markerOptions).addTo(map); //Chicago
+      var marker5 = L.marker([40.010, -75.130], markerOptions).addTo(map); //Philadelphia
+      var marker6 = L.marker([29.460, -98.510], markerOptions).addTo(map); //San antonio
+      var marker7 = L.marker([37.770, -122.450], markerOptions).addTo(map); //San francisco
+      var marker8 = L.marker([39.990, -82.990], markerOptions).addTo(map); //Columbus
+      var marker9 = L.marker([30.310, -97.750], markerOptions).addTo(map); //Austin
+      var marker10 = L.marker([35.110, -90.010], markerOptions).addTo(map); //Memphis
+      var marker11 = L.marker([39.300, -76.610], markerOptions).addTo(map); //Baltimore
+      var marker12 = L.marker([31.850, -106.440], markerOptions).addTo(map); //El paso
+      var marker13 = L.marker([35.200, -80.830], markerOptions).addTo(map); //Charlotte
+      var marker14 = L.marker([42.340, -71.020], markerOptions).addTo(map); //Boston
+      var marker15 = L.marker([38.910, -77.020], markerOptions).addTo(map); //Washington
+      var marker16 = L.marker([36.170, -86.780], markerOptions).addTo(map); //Nashville
+      var marker17 = L.marker([36.210, -115.220], markerOptions).addTo(map); //Las vegas
+      var marker18 = L.marker([35.470, -97.510], markerOptions).addTo(map); //Oklahoma city
+      var marker19 = L.marker([30.070, -89.930], markerOptions).addTo(map); //New orleans
+      var marker20 = L.marker([25.780, -80.210], markerOptions).addTo(map); //Miami
+      var marker21 = L.marker([38.640, -90.240], markerOptions).addTo(map); //Saint louis
+      var marker22 = L.marker([40.440, -79.980], markerOptions).addTo(map); //Pittsburgh
+      var marker23 = L.marker([28.500, -81.370], markerOptions).addTo(map); //Orlando
+      var marker24 = L.marker([35.820, -78.660], markerOptions).addTo(map); //Raleigh
+      var marker25 = L.marker([34.720, -92.350], markerOptions).addTo(map); //Little rock
+      var marker26 = L.marker([40.780, -111.930], markerOptions).addTo(map); //Salt lake city
+      var marker27 = L.marker([35.970, -83.950], markerOptions).addTo(map); //Knoxville
+      var marker28 = L.marker([41.310, -72.920], markerOptions).addTo(map); //New haven
+      var marker29 = L.marker([43.7022, -72.2896], markerOptions).addTo(map); //Hanover
+      var marker30 = L.marker([41.820, -71.420], markerOptions).addTo(map); //Providence
+      var marker31 = L.marker([33.760, -84.420], markerOptions).addTo(map); //Atlanta
+      var marker32 = L.marker([39.780, -86.150], markerOptions).addTo(map); //Indianapolis
+      var marker33 = L.marker([44.4759, -73.2121], markerOptions).addTo(map); //Burlington
+      var marker34 = L.marker([32.7767, -96.7970], markerOptions).addTo(map); //Dallas
+      var marker35 = L.marker([32.0809, -81.0912], markerOptions).addTo(map); //Savannah
+      var marker36 = L.marker([43.6591, -70.2568], markerOptions).addTo(map); //Portland
+      var marker37 = L.marker([43.0481, -76.1474], markerOptions).addTo(map); //Syracuse
+      var marker38 = L.marker([43.0962, -79.0377], markerOptions).addTo(map); //Niagara Falls
+      var marker39 = L.marker([43.6532, -79.3832], markerOptions).addTo(map); //Toronto
+      var marker40 = L.marker([45.5019, -73.5674], markerOptions).addTo(map); //Montreal
+      var marker41 = L.marker([46.8131, -71.2075], markerOptions).addTo(map); //Québec City
+      var marker42 = L.marker([45.4215, -75.6972], markerOptions).addTo(map); //Ottawa
+      var marker43 = L.marker([19.4326, -99.1332], markerOptions).addTo(map); //Mexico City
+      var marker44 = L.marker([21.1619, -86.8515], markerOptions).addTo(map); //Cancun
+      var marker45 = L.marker([42.9956, -71.4548], markerOptions).addTo(map); //Manchester
+      var marker46 = L.marker([33.9519, -83.3576], markerOptions).addTo(map); //Athens
+      var marker47 = L.marker([24.5551, -81.7800], markerOptions).addTo(map); //Key West
+      var marker48 = L.marker([33.5186, -86.8104], markerOptions).addTo(map); //Birmingham
+      var marker49 = L.marker([37.2090, -93.2923], markerOptions).addTo(map); //Springfield
 
-
-      // Adding marker to the map
-      marker1.addTo(map);
-      marker2.addTo(map);
-      marker3.addTo(map);
-      marker4.addTo(map);
-      marker5.addTo(map);
-      marker6.addTo(map);
-      marker7.addTo(map);
-      marker8.addTo(map);
-      marker9.addTo(map);
-      marker10.addTo(map);
-      marker11.addTo(map);
-      marker12.addTo(map);
-      marker13.addTo(map);
-      marker14.addTo(map);
-      marker15.addTo(map);
-      marker16.addTo(map);
-      marker17.addTo(map);
-      marker18.addTo(map);
-      marker19.addTo(map);
-      marker20.addTo(map);
-      marker21.addTo(map);
-      marker22.addTo(map);
-      marker23.addTo(map);
-      marker24.addTo(map);
-      marker25.addTo(map);
-      marker26.addTo(map);
-      marker27.addTo(map);
-      marker28.addTo(map);
-      marker29.addTo(map);
-      marker30.addTo(map);
-      marker31.addTo(map);
-      marker32.addTo(map);
-      marker33.addTo(map);
-      marker34.addTo(map);
-      marker35.addTo(map);
-      marker36.addTo(map);
-      marker37.addTo(map);
-      marker38.addTo(map);
-      marker39.addTo(map);
-      marker40.addTo(map);
-      marker41.addTo(map);
-      marker42.addTo(map);
-      marker43.addTo(map);
-      marker44.addTo(map);
-      marker45.addTo(map);
-      marker46.addTo(map);
-      marker47.addTo(map);
-      marker48.addTo(map);
-      marker49.addTo(map);
+      var popupContent1 = '<a>Houston TX<br>Home sweet home<br><img src="./../assets/travel_img/home.jpg"></a>';
+      var popupContent2 = '<a>New York NY<br><img src="./../assets/travel_img/ny.jpeg"></a>';
+      var popupContent3 = '<a>Los Angeles CA<br><img src="./../assets/travel_img/la.jpeg"></a>';
+      var popupContent4 = '<a>Chicago IL<br><img src="./../assets/travel_img/la.jpeg"></a>';
+      var popupContent5 = '<a>Philadelphia IL<br><img src="./../assets/travel_img/la.jpeg"></a>';
+      var popupContent6 = '<a>San antonio TX<br><img src="./../assets/travel_img/sa.jpeg"></a>';
+      var popupContent7 = '<a>San Francisco CA<br><img src="./../assets/travel_img/sf.jpeg"></a>';
+      var popupContent8 = '<a>Columbus OH<br><img src="./../assets/travel_img/columbus.jpeg"></a>';
+      var popupContent9 = '<a>Austin TX<br><img src="./../assets/travel_img/austin.jpg"></a>';
+      var popupContent10 = '<a>Memphis TN<br><img src="./../assets/travel_img/memphis.jpeg"></a>';
 
       // Adding pop-up to the marker
-      marker1.bindPopup('Home');
+      marker1.bindPopup(popupContent1, {maxWidth: "auto"});
+      marker2.bindPopup(popupContent2, {maxWidth: "auto"});
+      marker3.bindPopup(popupContent3, {maxWidth: "auto"});
+      marker4.bindPopup(popupContent4, {maxWidth: "auto"});
+      marker5.bindPopup(popupContent5, {maxWidth: "auto"});
+      marker6.bindPopup(popupContent6, {maxWidth: "auto"});
+      marker7.bindPopup(popupContent7, {maxWidth: "auto"});
+      marker8.bindPopup(popupContent8, {maxWidth: "auto"});
+      marker9.bindPopup(popupContent9, {maxWidth: "auto"});
+      marker10.bindPopup(popupContent10, {maxWidth: "auto"});
 
       // Creating NP markers
       var np1 = L.marker([44.35, -68.21], npOptions); //Acadia

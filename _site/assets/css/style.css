@@ -593,7 +593,7 @@ footer {
   flex-direction: row; }
 
 .nav {
-  line-height: 1em;
+  line-height: 0.7em;
   font-size: 20px; }
 
 .option {
@@ -610,3 +610,9 @@ footer {
 .title {
   display: flex;
   flex-direction: row; }
+
+a > img {
+  border: 0px dashed #92fcc0;
+  max-height: 100px;
+  max-width: 150px;
+  padding: 2px; }
