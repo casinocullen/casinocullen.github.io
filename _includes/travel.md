@@ -28,12 +28,19 @@
       // Creating a map object
       var map = new L.map('map', mapOptions);
       
-      // Creating a Layer object
-         var layer = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-            subdomains: 'abcd',
-            maxZoom: 20
-         });
+   // Creating a Layer object
+      var layer = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+         subdomains: 'abcd',
+         maxZoom: 20
+      });
+
+      // Adding layer to the map
+      map.addLayer(layer);
+
+
+      L.tileLayer.provider('Stadia.AlidadeSmoothDark').addTo(map);
+
 
       
       // Icon options
@@ -65,8 +72,6 @@
       }
 
 
-      // Adding layer to the map
-      map.addLayer(layer);
       
       // Creating a marker
       var marker1 = L.marker([29.770, -95.390], markerOptions); //houston
