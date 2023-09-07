@@ -38,10 +38,6 @@
       // Adding layer to the map
       map.addLayer(layer);
 
-
-      L.tileLayer.provider('Stadia.AlidadeSmoothDark').addTo(map);
-
-
       
       // Icon options
       var iconOptionsVisted = {
