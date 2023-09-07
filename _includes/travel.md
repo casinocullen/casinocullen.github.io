@@ -2,11 +2,11 @@
 <h2 id="travel" style="margin: 2px 0px 15px;">Travel</h2>
 
    <head>
-      <title>Leaflet sample</title>
+      <title>Places Traveled</title>
       <link rel = "stylesheet" href = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
       <script src = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
       <script src="http://unpkg.com/leaflet@latest/dist/leaflet.js"></script>
-      <script src="js/leaflet-providers.js"></script>
+      <script src="/assets/js/leaflet-providers.js"></script>
 
    </head>
 
