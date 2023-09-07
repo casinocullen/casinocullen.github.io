@@ -3,8 +3,8 @@
 
    <head>
       <title>Places Traveled</title>
-      <link rel = "stylesheet" href = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
-      <script src = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+      <link rel = "stylesheet" href = "/assets/css/leaflet.css"/>
+      <script src = "/assets/js/leaflet.js"></script>
       <script src="http://unpkg.com/leaflet@latest/dist/leaflet.js"></script>
       <script src="/assets/js/leaflet-providers.js"></script>
 
