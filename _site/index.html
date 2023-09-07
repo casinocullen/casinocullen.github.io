@@ -27,6 +27,53 @@
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/publications.css">
 
+      <!-- Javascript -->
+      <script src="./assets/js/jquery-3.4.1.min.js"></script>
+      <script>
+          /* Back button appears on scroll */
+          $(window).scroll(function(){
+            if ($(this).scrollTop() > 20) {
+                $('.back').removeClass('no-display');
+            } else {
+                $('.back').addClass('no-display');
+            }
+          });
+          
+          /* Forward button appears on scroll */
+          $(window).scroll(function(){
+            if ($(this).scrollTop() > 20) {
+                $('.forward').removeClass('no-display');
+            } else {
+                $('.forward').addClass('no-display');
+            }
+          });
+          
+          /* Scroll button appears on scroll */
+          $(window).scroll(function(){
+            if ($(this).scrollTop() > 20) {
+                $('.scroll-to-top').removeClass('no-display');
+            } else {
+                $('.scroll-to-top').addClass('no-display');
+            }
+          });
+  
+          /* Smooth Scrolling */
+          $(document).ready(function(){
+            $("a").on('click', function(event) {
+              if (this.hash !== "") {
+                  event.preventDefault();
+                  var hash = this.hash;
+                  $('html, body').animate({
+                      scrollTop: $(hash).offset().top
+                  }, 500, function(){
+                      window.location.hash = hash;
+                  });
+              }
+            });
+          });
+      </script>
+  
+
 </head>
 
 
