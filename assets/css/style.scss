@@ -2,3 +2,44 @@
 ---
 
 @import "minimal-light";
+
+
+@media (prefers-color-scheme: dark) {
+    .name {
+        color: #FFFFFF;
+        font-size: 40px;
+    }
+    .chinese_name {
+        color: #FFFFFF;
+        font-size: 20px;
+        margin-top: -15px;
+        margin-bottom: 5px;      
+    }
+  }
+
+/* HEADER */
+.hero {
+    position: relative;
+}
+.header {
+    flex-direction: row;
+}
+.nav {
+    line-height: 1em;
+    font-size: 20px;
+}
+.option {
+    font-weight: normal;
+    color: var(--gray-03);
+}
+.selected {
+    font-weight: 500;
+    color: var(--black);
+}
+.option:hover {
+    color: var(--black);
+}
+.title {
+    display: flex;
+    flex-direction: row;
+}

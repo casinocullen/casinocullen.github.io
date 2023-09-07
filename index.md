@@ -2,7 +2,7 @@
 layout: homepage
 ---
 
-## About Me
+<h2 id="about" style="margin: 10px 0px;">About Me</h2>
 
 I'm a <a href="https://profiles.rice.edu/student/chen-chen/" target="_blank"> Environmental Engineering </a> Ph.D. candidate at <a href="https://www.rice.edu/" target="_blank"> Rice University</a>'s <a href="https://cee.rice.edu/" target="_blank"> George R. Brown School of Engineering</a> in Houston, TX, working under the mentorship of Prof.<a href="https://profiles.rice.edu/faculty/daniel-cohan" target="_blank"> Daniel S. Cohan</a>. My research involves marco energy system modeling and optimization.
 
@@ -18,13 +18,13 @@ My research are highly focusing on marco energy transition and modeling, with in
 - **Data Science:** functional regression, and clustering methods
 
 
-{% include_relative _includes/papers.md %}
-
-
-## Experience
+<h2 id="experience" style="margin: 10px 0px;">Experience</h2>
 - **[2022-2022]** Summer Associate @ <a href="https://www.edpr.com/en" target="_blank">EDP Renewables (EDPR)</a>
 - **[2019-2021]** Lead Data Scientist @ <a href="https://ruralinnovation.us" target="_blank">Center on Rural Innovation (CORI)</a>
 - **[2018-2019]** Marine Research Fellow @ <a href="https://theicct.org/" target="_blank">International Council on Clean Transportation (ICCT)</a>
+
+
+{% include_relative _includes/papers.md %}
 
 
 ## Awards
