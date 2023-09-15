@@ -7,6 +7,37 @@
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/rice_cover.jpeg" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">In Progress</abbr>
+  </div>
+
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title">Geothermal Power Generation Potential in the United States by 2050</div>
+    <div class="author"><strong>Chen Chen</strong></div>
+    <div class="periodical"><em>In Progress</em></div>
+  </div>
+</div>
+</li>
+
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/rice_cover.jpeg" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">In Progress</abbr>
+  </div>
+
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title">Emissions Impacts of New Dispatchable Power Plants, Battery Storage, and Transmission in Texas</div>
+    <div class="author"><strong>Chen Chen</strong></div>
+    <div class="periodical"><em>In Progress</em></div>
+  </div>
+</div>
+</li>
+
+
+
+<li>
+<div class="pub-row">
+
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/bc_cover.jpeg" class="teaser img-fluid z-depth-1">
     <abbr class="badge">Atmosphere</abbr>
   </div>

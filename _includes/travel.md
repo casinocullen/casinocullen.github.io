@@ -32,7 +32,6 @@
       L.tileLayer.provider('USGS.USTopo').addTo(map);
 
 
-
       // Icon options
       var iconOptionsVisted = {
          iconUrl: './assets/img/map_icon.png',
@@ -60,6 +59,7 @@
          clickable: true,
          icon: npIcon
       }
+
 
 
       // Creating a marker
