@@ -10,12 +10,18 @@
 <body>
 
    <!-- Title -->
-   <div class="title">
+   <!-- <div class="title">
          <div>
             <h1>Places traveled in North America<br>
             <span>and the journey continues...</span></h1>
          </div>
-   </div>
+   </div> -->
+
+<blockquote id="travel">
+  “Travel is about the gorgeous feeling of teetering in the unknown.
+  <span>Anthony Bourdain</span>
+</blockquote>
+
 
    <!-- Map -->
    <div id = "map" style = "width: 99%; height:450px"></div>
