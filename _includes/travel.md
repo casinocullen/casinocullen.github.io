@@ -18,7 +18,7 @@
    </div> -->
 
 <blockquote id="travel">
-  “Travel is about the gorgeous feeling of teetering in the unknown.
+  Travel is about the gorgeous feeling of teetering in the unknown.
   <span>Anthony Bourdain</span>
 </blockquote>
 

@@ -228,7 +228,8 @@ papertitle {
   padding: 50px;
   border: 2px solid #ddd;
   padding: 8px;
-  box-shadow: 0 -1px 5px 1px rgba(200, 200, 200, 0.3); }
+  box-shadow: 0 -1px 5px 1px rgba(200, 200, 200, 0.3);
+  object-fit: fill; }
 
 .image.logo img {
   border-radius: 0%;
@@ -635,6 +636,7 @@ a > img {
   overflow: hidden; }
 
 blockquote {
+  display: inline-block;
   font-size: 1.2em;
   width: 80%;
   margin: 50px auto;
@@ -671,10 +673,11 @@ div.gallery {
   border: 0px solid #ccc;
   float: left;
   width: 31%;
-  height: 400px; }
+  height: 400px;
+  display: inline-block; }
 
 div.gallery img {
-  display: block;
+  display: inline-block;
   border-radius: 0.625vw;
   object-fit: contain;
   /* Do not scale the image */
@@ -682,5 +685,5 @@ div.gallery img {
   height: 300px; }
 
 div.desc {
-  padding: 15px;
+  padding: 5px;
   text-align: center; }
