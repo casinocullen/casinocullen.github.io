@@ -14,6 +14,24 @@
 
 <div id = "gallery" style = "width: 99%; height:100%">
   <div class="gallery">
+    <img src="assets/run_img/houston_2024.jpg" alt="Chevron Houston Full Marathon">
+    <div class="desc">Chevron Houston Full Marathon<br />Houston TX<br />Jan 2024</div>
+  </div>
+
+<div id = "gallery" style = "width: 99%; height:100%">
+  <div class="gallery">
+    <img src="assets/run_img/dallas_2023.jpeg" alt="Dallas Half Marathon">
+    <div class="desc">Dallas Half Marathon<br />Dallas TX<br />Dec 2023</div>
+  </div>
+
+<div id = "gallery" style = "width: 99%; height:100%">
+  <div class="gallery">
+    <img src="assets/run_img/houston_half.jpeg" alt="Houston Half Marathon">
+    <div class="desc">Houston Half Marathon<br />Houston TX<br />Oct 2023</div>
+  </div>
+
+<div id = "gallery" style = "width: 99%; height:100%">
+  <div class="gallery">
     <img src="assets/run_img/run_alamo.jpeg" alt="Run Alamo Half Marathon">
     <div class="desc">Run Alamo Half Marathon<br />San Antonio TX<br />Mar 2023</div>
   </div>
