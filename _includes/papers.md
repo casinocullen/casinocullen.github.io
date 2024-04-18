@@ -7,27 +7,6 @@
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/img/geothermal_cover.jpeg" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">IOP Science</abbr>
-  </div>
-
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://iopscience.iop.org/article/10.1088/2753-3751/ad3fbb">Geothermal Power Generation Potential in the United States by 205</a></div>
-    <div class="author"><strong>Chen Chen</strong>, Daniel Merino-Garcia, Timothy D.G.H. Lines and Daniel S. Cohan3</div>
-    <div class="periodical"><em>Environmental Research: Energy, Apr. 2024</em></div>
-    <div class="links">
-    <a href="https://iopscience.iop.org/article/10.1088/2753-3751/ad3fbb" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Website</a>
-      <a href="https://iopscience.iop.org/article/10.1088/2753-3751/ad3fbb/pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      <a href="https://github.com/casinocullen/proj-geothermal" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">GitHub</a>
-    </div>
-  </div>
-</div>
-</li>
-
-<li>
-<div class="pub-row">
-
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/dispatch_cover.jpeg" class="teaser img-fluid z-depth-1">
     <abbr class="badge">In Progress</abbr>
   </div>
@@ -40,7 +19,26 @@
 </div>
 </li>
 
+<li>
+<div class="pub-row">
 
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/geothermal_cover.jpeg" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">IOP Science</abbr>
+  </div>
+
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://iopscience.iop.org/article/10.1088/2753-3751/ad3fbb">Geothermal Power Generation Potential in the United States by 205</a></div>
+    <div class="author"><strong>Chen Chen</strong>, Daniel Merino-Garcia, Timothy D.G.H. Lines and Daniel S. Cohan</div>
+    <div class="periodical"><em>Environmental Research: Energy, Apr. 2024</em></div>
+    <div class="links">
+    <a href="https://iopscience.iop.org/article/10.1088/2753-3751/ad3fbb" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Website</a>
+      <a href="https://iopscience.iop.org/article/10.1088/2753-3751/ad3fbb/pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="https://github.com/casinocullen/proj-geothermal" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">GitHub</a>
+    </div>
+  </div>
+</div>
+</li>
 
 <li>
 <div class="pub-row">
