@@ -15,19 +15,19 @@
 <div id = "gallery" style = "width: 99%; height:100%">
   <div class="gallery">
     <img src="assets/run_img/houston_2025.jpg" alt="Chevron Houston Full Marathon">
-    <div class="desc">2025 Chevron Houston Marathon<br />Houston TX<br />Jan 2025</div>
+    <div class="desc">Chevron Houston Marathon<br />Houston TX<br />Jan 2025</div>
   </div>
 
 <div id = "gallery" style = "width: 99%; height:100%">
   <div class="gallery">
     <img src="assets/run_img/houston_half_2024.jpg" alt="Dallas Half Marathon">
-    <div class="desc">2024 Houston Half Marathon<br />Houston TX<br />Aug 2024</div>
+    <div class="desc">Houston Half Marathon<br />Houston TX<br />Aug 2024</div>
   </div>
 
 <div id = "gallery" style = "width: 99%; height:100%">
   <div class="gallery">
     <img src="assets/run_img/houston_2024.jpg" alt="Chevron Houston Full Marathon">
-    <div class="desc">2024 Chevron Houston Marathon<br />Houston TX<br />Jan 2024</div>
+    <div class="desc">Chevron Houston Marathon<br />Houston TX<br />Jan 2024</div>
   </div>
 
 <div id = "gallery" style = "width: 99%; height:100%">
@@ -39,7 +39,7 @@
 <div id = "gallery" style = "width: 99%; height:100%">
   <div class="gallery">
     <img src="assets/run_img/houston_half.jpeg" alt="Houston Half Marathon">
-    <div class="desc">2023 Houston Half Marathon<br />Houston TX<br />Oct 2023</div>
+    <div class="desc">Houston Half Marathon<br />Houston TX<br />Oct 2023</div>
   </div>
 
 <div id = "gallery" style = "width: 99%; height:100%">
