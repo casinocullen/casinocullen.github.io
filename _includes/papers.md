@@ -3,18 +3,36 @@
 <div class="publications">
 <ol class="bibliography">
 
+
+<li>
+<div class="pub-row">
+
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/geo_heat_cover.jpeg" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">In Progress</abbr>
+  </div>
+
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title">Potential Geothermal Deployments in the U.S. Power System and Industrial Sector</div>
+    <div class="author"><strong>Chen Chen</strong></div>
+    <div class="periodical"><em>In Progress</em></div>
+  </div>
+</div>
+</li>
+
+
 <li>
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/dispatch_cover.jpeg" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">In Progress</abbr>
+    <abbr class="badge">Under Review</abbr>
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title">Emissions Impacts of New Dispatchable Power Plants, Battery Storage, and Transmission in Texas</div>
+    <div class="title">Impacts of Potential Investments on Electricity Resource Adequacy and Emissions in Texas</div>
     <div class="author"><strong>Chen Chen</strong></div>
-    <div class="periodical"><em>In Progress</em></div>
+    <div class="periodical"><em>Under Review</em></div>
   </div>
 </div>
 </li>
