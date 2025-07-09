@@ -30,7 +30,7 @@
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title">Impacts of Potential Investments on Electricity Resource Adequacy and Emissions in Texas</div>
+      <div class="title"><a href="https://www.sciencedirect.com/science/article/pii/S2211467X25001592">Impacts of Potential Investments on Electricity Resource Adequacy and Emissions in Texas</a></div>
     <div class="author"><strong>Chen Chen</strong>, Caroline M. Hashimoto, Daniel S. Cohan</div>
     <div class="periodical"><em>Energy Strategy Reviews, July 2025</em></div>
     <div class="links">
@@ -51,7 +51,7 @@
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://iopscience.iop.org/article/10.1088/2753-3751/ad3fbb">Geothermal Power Generation Potential in the United States by 205</a></div>
+    <div class="title"><a href="https://iopscience.iop.org/article/10.1088/2753-3751/ad3fbb">Geothermal Power Generation Potential in the United States by 2050</a></div>
     <div class="author"><strong>Chen Chen</strong>, Daniel Merino-Garcia, Timothy D.G.H. Lines, Daniel S. Cohan</div>
     <div class="periodical"><em>Environmental Research: Energy, Apr. 2024</em></div>
     <div class="links">
