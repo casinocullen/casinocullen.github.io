@@ -37,6 +37,7 @@
     <a href="https://doi.org/10.1016/j.esr.2025.101796" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Website</a>
       <a href="./assets/files/texas_paper.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://zenodo.org/records/13314103" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Data</a>
+    </div>
   </div>
 </div>
 </li>
