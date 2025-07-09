@@ -9,13 +9,13 @@
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/geo_heat_cover.jpg" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">In Progress</abbr>
+    <abbr class="badge">Under Review</abbr>
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title">Potential Geothermal Deployments in the U.S. Power System and Industrial Sector</div>
     <div class="author"><strong>Chen Chen</strong></div>
-    <div class="periodical"><em>In Progress</em></div>
+    <div class="periodical"><em>Under Review</em></div>
   </div>
 </div>
 </li>
@@ -26,13 +26,17 @@
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/dispatch_cover.jpeg" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">Under Review</abbr>
+    <abbr class="badge">Energy Strategy Reviews</abbr>
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title">Impacts of Potential Investments on Electricity Resource Adequacy and Emissions in Texas</div>
-    <div class="author"><strong>Chen Chen</strong></div>
-    <div class="periodical"><em>Under Review</em></div>
+    <div class="author"><strong>Chen Chen</strong>, Caroline M. Hashimoto, Daniel S. Cohan</div>
+    <div class="periodical"><em>Energy Strategy Reviews, July 2025</em></div>
+    <div class="links">
+    <a href="https://doi.org/10.1016/j.esr.2025.101796" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Website</a>
+      <a href="./assets/files/texas_paper.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="https://zenodo.org/records/13314103" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Data</a>
   </div>
 </div>
 </li>
