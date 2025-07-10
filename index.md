@@ -6,11 +6,11 @@ layout: homepage
 
 I'm an Energy Market Analyst at <a href="https://www.energyexemplar.com/" target="_blank"> Energy Exemplar</a>.
 
-I obtained my Ph.D. in Environmental Engineering at Rice University</a>'s <a href="https://cee.rice.edu/" target="_blank"> George R. Brown School of Engineering</a> in Houston, TX, working under the mentorship of Prof.<a href="https://profiles.rice.edu/faculty/daniel-cohan" target="_blank"> Daniel S. Cohan</a>. My thesis is entitled <a>*Integrated Modeling of Future Energy Systems to Enhance Grid Reliability and Sustainability*</a>. 
-
-Prior to that, I obtained M.S. in Environmental Sciences from <a href="https://www.emory.edu" target = "_blank"> Emory University</a>, Atlanta, GA in 2018. I also hold a B.S. with Honor in Marine Science and Chemistry, with a minor in Mathematics and Geology, from <a href="https://www.miami.edu" target = "_blank"> University of Miami</a>, Coral Gables, FL.
+I obtained my Ph.D. in Environmental Engineering at Rice University's <a href="https://cee.rice.edu/" target="_blank"> George R. Brown School of Engineering</a> in Houston, TX, working under the mentorship of Prof.<a href="https://profiles.rice.edu/faculty/daniel-cohan" target="_blank"> Daniel S. Cohan</a>. My thesis is entitled <a>*Integrated Modeling of Future Energy Systems to Enhance Grid Reliability and Sustainability*</a>. 
 
 My research are highly focusing on macro energy transition and modeling, with investigation into four pillars: 1) economic, 2) social-environmental, 3) technological, and 4) policy. My recent papers highlighted the human health impacts from natural gas flaring, the future opportunity of geothermal in energy transition, and energy reliablity analysis in Texas. I am an experienced quantitative and geospatial data scientist and self-taught developer.
+
+Prior to that, I obtained M.S. in Environmental Sciences from <a href="https://www.emory.edu" target = "_blank"> Emory University</a>, Atlanta, GA in 2018. I also hold a B.S. with Honor in Marine Science and Chemistry, with a minor in Mathematics and Geology, from <a href="https://www.miami.edu" target = "_blank"> University of Miami</a>, Coral Gables, FL.
 
 
 ## Research Interests
