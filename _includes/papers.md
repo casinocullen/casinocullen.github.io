@@ -8,14 +8,18 @@
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/img/geo_heat_cover.jpg" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">Under Review</abbr>
+    <img src="assets/img/dispatch_cover.jpeg" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">Energy Conversion and Management</abbr>
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title">Potential Geothermal Deployments in the U.S. Power System and Industrial Sector</div>
-    <div class="author"><strong>Chen Chen</strong></div>
-    <div class="periodical"><em>Under Review</em></div>
+      <div class="title"><a href="https://doi.org/10.1016/j.enconman.2025.120711">Potential geothermal deployments for U.S. electricity and industrial heat</a></div>
+    <div class="author"><strong>Chen Chen</strong>, Daniel S. Cohan</div>
+    <div class="periodical"><em>Energy Conversion and Management, January 2026</em></div>
+    <div class="links">
+    <a href="https://doi.org/10.1016/j.enconman.2025.120711" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Website</a>
+      <a href="./assets/files/geothermal_heat_paper.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+    </div>
   </div>
 </div>
 </li>
