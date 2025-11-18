@@ -9,7 +9,7 @@
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/dispatch_cover.jpeg" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">Energy Conversion and Management</abbr>
+    <abbr class="badge">Elsevier</abbr>
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
@@ -45,7 +45,7 @@
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/dispatch_cover.jpeg" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">Energy Strategy Reviews</abbr>
+    <abbr class="badge">Elsevier</abbr>
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
