@@ -33,7 +33,7 @@
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="https://doi.org/10.1016/j.enconman.2025.120711">Evaluating human mortality impacts from air pollution as U.S. commuting reaches its extremes</a></div>
+      <div class="title"><a href="https://doi.org/10.1016/j.jtrangeo.2025.104541">Evaluating human mortality impacts from air pollution as U.S. commuting reaches its extremes</a></div>
     <div class="author">Yue Jing, Yujie Hu, <strong>Chen Chen</strong>, Daniel S. Cohan</div>
     <div class="periodical"><em>Journal of Transport Geography, February 2026</em></div>
     <div class="links">
