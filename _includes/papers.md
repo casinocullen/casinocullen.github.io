@@ -29,13 +29,17 @@
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/commute_cover.jpg" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">Under Review</abbr>
+    <abbr class="badge">Elsevier</abbr>
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title">Evaluating Human Mortality Impacts from Air Pollution as U.S. Commuting Reaches its Extremes</div>
-    <div class="author"><strong>Chen Chen</strong></div>
-    <div class="periodical"><em>Under Review</em></div>
+      <div class="title"><a href="https://doi.org/10.1016/j.enconman.2025.120711">Evaluating human mortality impacts from air pollution as U.S. commuting reaches its extremes</a></div>
+    <div class="author">Yue Jing, Yujie Hu, <strong>Chen Chen</strong>, Daniel S. Cohan</div>
+    <div class="periodical"><em>Journal of Transport Geography, February 2026</em></div>
+    <div class="links">
+    <a href="https://doi.org/10.1016/j.jtrangeo.2025.104541" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Website</a>
+      <a href="./assets/files/commute.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+    </div>
   </div>
 </div>
 </li>
