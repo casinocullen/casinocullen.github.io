@@ -122,8 +122,57 @@ div.gallery {
     height: 300px;
   }
   
-  div.desc {
+div.desc {
     padding: 5px;
     text-align: center;
   }
+
+.live-project-card {
+    margin: 14px 0 28px;
+    padding: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.98) 0%, rgba(247, 248, 250, 0.96) 100%);
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+}
+
+.live-project-copy h3 {
+    margin: 0 0 8px;
+}
+
+.live-project-copy p {
+    margin: 0 0 10px;
+}
+
+.live-project-links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    font-size: 0.95rem;
+}
+
+.live-project-embed {
+    margin-top: 14px;
+}
+
+.live-project-embed iframe {
+    display: block;
+    width: 100%;
+    min-height: 760px;
+    border: 0;
+    border-radius: 14px;
+    background: #0d1117;
+}
+
+@media (max-width: 768px) {
+    .live-project-card {
+        padding: 14px;
+        border-radius: 12px;
+    }
+
+    .live-project-embed iframe {
+        min-height: 560px;
+    }
+}
   

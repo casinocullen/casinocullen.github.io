@@ -26,6 +26,31 @@ Prior to that, I obtained M.S. in Environmental Sciences from <a href="https://w
 - **[2019-2021]** Lead Data Scientist @ <a href="https://ruralinnovation.us" target="_blank">Center on Rural Innovation (CORI)</a>
 - **[2018-2019]** Marine Research Fellow @ <a href="https://theicct.org/" target="_blank">International Council on Clean Transportation (ICCT)</a>
 
+<h2 id="live-projects" style="margin: 10px 0px;">Live Projects</h2>
+
+<div class="live-project-card">
+  <div class="live-project-copy">
+    <h3>US Power System Map</h3>
+    <p>
+      An interactive map of the US electric power system with ISO/RTO regions, major transmission corridors,
+      previous-day EIA generation mix, and EIA 2024 generator plants.
+    </p>
+    <p class="live-project-links">
+      <a href="https://chenchen.page/us_power_mapping/" target="_blank" rel="noopener">Open full screen</a>
+      <span>&middot;</span>
+      <a href="https://github.com/casinocullen/us_power_mapping" target="_blank" rel="noopener">GitHub</a>
+    </p>
+  </div>
+  <div class="live-project-embed">
+    <iframe
+      title="US Power System Map"
+      src="https://chenchen.page/us_power_mapping/"
+      loading="lazy"
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
+
 
 {% include_relative _includes/papers.md %}
 
