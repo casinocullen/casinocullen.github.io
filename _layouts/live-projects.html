@@ -27,68 +27,59 @@
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/publications.css">
 
-      <!-- Javascript -->
-      <script src="./assets/js/jquery-3.4.1.min.js"></script>
-      <script>
-          /* Back button appears on scroll */
-          $(window).scroll(function(){
-            if ($(this).scrollTop() > 20) {
-                $('.back').removeClass('no-display');
-            } else {
-                $('.back').addClass('no-display');
-            }
-          });
-          
-          /* Forward button appears on scroll */
-          $(window).scroll(function(){
-            if ($(this).scrollTop() > 20) {
-                $('.forward').removeClass('no-display');
-            } else {
-                $('.forward').addClass('no-display');
-            }
-          });
-          
-          /* Scroll button appears on scroll */
-          $(window).scroll(function(){
-            if ($(this).scrollTop() > 20) {
-                $('.scroll-to-top').removeClass('no-display');
-            } else {
-                $('.scroll-to-top').addClass('no-display');
-            }
-          });
-  
-          /* Smooth Scrolling */
-          $(document).ready(function(){
-            $("a").on('click', function(event) {
-              if (this.hash !== "") {
-                  event.preventDefault();
-                  var hash = this.hash;
-                  $('html, body').animate({
-                      scrollTop: $(hash).offset().top
-                  }, 500, function(){
-                      window.location.hash = hash;
-                  });
-              }
-            });
-          });
-      </script>
-  
+  <script src="./assets/js/jquery-3.4.1.min.js"></script>
+  <script>
+      $(window).scroll(function(){
+        if ($(this).scrollTop() > 20) {
+            $('.back').removeClass('no-display');
+        } else {
+            $('.back').addClass('no-display');
+        }
+      });
 
+      $(window).scroll(function(){
+        if ($(this).scrollTop() > 20) {
+            $('.forward').removeClass('no-display');
+        } else {
+            $('.forward').addClass('no-display');
+        }
+      });
+
+      $(window).scroll(function(){
+        if ($(this).scrollTop() > 20) {
+            $('.scroll-to-top').removeClass('no-display');
+        } else {
+            $('.scroll-to-top').addClass('no-display');
+        }
+      });
+
+      $(document).ready(function(){
+        $("a").on('click', function(event) {
+          if (this.hash !== "") {
+              event.preventDefault();
+              var hash = this.hash;
+              $('html, body').animate({
+                  scrollTop: $(hash).offset().top
+              }, 500, function(){
+                  window.location.hash = hash;
+              });
+          }
+        });
+      });
+  </script>
 </head>
-
 
 <body>
 
   <div class="wrapper">
-    <header>    
-        <!-- Nav -->
+    <header>
         <div class="hero">
           <div class="header">
               <nav class="nav">
-                  <h5 class="option selected"><a href="#about">About</a></h5>
-                  <h5 class="option"><a href="#experience">Experience</a></h5>
-                  <h5 class="option"><a href="live-projects">Live Projects</a></h5>
-                  <h5 class="option"><a href="#papers">Publications</a></h5>
+                  <h5 class="option"><a href="{{ site.baseurl }}{% link index.md %}#about">About</a></h5>
+                  <h5 class="option"><a href="{{ site.baseurl }}{% link index.md %}#experience">Experience</a></h5>
+                  <h5 class="option selected"><a href="live-projects">Live Projects</a></h5>
+                  <h5 class="option"><a href="{{ site.baseurl }}{% link index.md %}#papers">Publications</a></h5>
                   <h5 class="option"><a href="life">Life</a></h5>
               </nav>
 
@@ -101,8 +92,8 @@
       {% endif %}
 
       <h1 class="name">{{ site.title }}</h1>
-      
-      <h3 class="chinese_name">(陈晨)</h3>
+
+      <h3 class="chinese_name">(é™ˆæ™¨)</h3>
       {% if site.position %}
       <position style="font-size:1.00rem;">{{ site.position }}</position>
       <br>
