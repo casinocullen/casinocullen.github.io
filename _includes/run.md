@@ -14,6 +14,13 @@
 
 <div id = "gallery" style = "width: 99%; height:100%">
   <div class="gallery">
+    <img src="assets/run_img/houston_2026.JPG" alt="2026 Aramco Houston Half Marathon">
+    <div class="desc">Chevron Houston Marathon<br />Houston TX<br />Jan 2026</div>
+  </div>
+
+
+<div id = "gallery" style = "width: 99%; height:100%">
+  <div class="gallery">
     <img src="assets/run_img/houston_2025.JPG" alt="2025 Chevron Houston Full Marathon">
     <div class="desc">Chevron Houston Marathon<br />Houston TX<br />Jan 2025</div>
   </div>
