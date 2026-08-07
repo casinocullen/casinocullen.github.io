@@ -8,6 +8,26 @@
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/prob_ra_cover.jpg" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">IOP Science</abbr>
+  </div>
+
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+      <div class="title"><a href="https://iopscience.iop.org/article/10.1088/2753-3751/ae854a">Probabilistic resource adequacy assessment of ERCOT under high data center load growth and high renewable energy potential through 2050</a></div>
+    <div class="author"><strong>Chen Chen</strong>, Joseph Nyangon, Tarek Ibrahim, Talha Ali</div>
+    <div class="periodical"><em>Environmental Research: Energy, July 2026</em></div>
+    <div class="links">
+    <a href="https://iopscience.iop.org/article/10.1088/2753-3751/ae854a" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Website</a>
+      <a href="./assets/files/Chen_2026_Environ._Res.__Energy_3_035005.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+    </div>
+  </div>
+</div>
+</li>
+
+<li>
+<div class="pub-row">
+
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/geo_heat_cover.jpg" class="teaser img-fluid z-depth-1">
     <abbr class="badge">Elsevier</abbr>
   </div>
